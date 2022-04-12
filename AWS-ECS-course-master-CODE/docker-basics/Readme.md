@@ -129,6 +129,8 @@ EXPOSE 80
 ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
 EOF
 
+# To Run that image locally 
+sudo docker run -d -p 8888:80 my-nginx
 
 # build your image
 sudo docker build -t <your-dockerhub-name>/<your-docker-repo-name> .
