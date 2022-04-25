@@ -113,6 +113,7 @@ EOF
 
 docker build -t container-1 .
 ```
+docker run -d --name abc -p 80:8080 852d576c79e2
 
 Interaction with Docker Hub  
 
